@@ -1,0 +1,161 @@
+LISTS
+
+What is a list in Python?
+-> A list is a collection of ordered, mutable items. Lists can hold different types of elements.
+
+
+How is it different from other data structures?
+-> Lists are mutable, ordered, and allow duplicate elements, unlike sets (unordered) and tuples (immutable).
+
+
+How do you access elements in a list?
+-> Elements can be accessed using their index, e.g., list[0] for the first element.
+
+
+What is slicing in a list?
+-> Slicing allows you to access a range of elements, e.g., list[start:end].
+
+
+Difference between append() and extend() methods:
+-> append(item) adds a single element to the end of the list.
+-> extend(iterable) adds each element from the iterable to the end of the list.
+
+
+How do you remove an element from a list?
+-> Use remove(element), pop(index), or del list[index].
+
+
+
+TUPLES
+
+What is a tuple?
+-> A tuple is an ordered, immutable collection of elements.
+
+
+How is it different from a list?
+-> Tuples are immutable; once created, their elements cannot be changed.
+
+
+Can you modify a tuple once it's created?
+-> No, because tuples are immutable.
+
+
+How do you convert a tuple to a list and vice versa?
+-> list(tuple) converts a tuple to a list.
+-> tuple(list) converts a list to a tuple.
+
+
+
+SETS
+
+What is a set?
+-> A set is an unordered collection of unique elements.
+    
+
+Characteristics:
+-> Unordered, no duplicate elements.
+
+
+Difference between a set and a list:
+-> Sets are unordered and do not allow duplicates, while lists are ordered and allow duplicates.
+
+
+Set operations:
+-> Union: set1 | set2 or set1.union(set2)
+-> Intersection: set1 & set2 or set1.intersection(set2)
+-> Difference: set1 - set2 or set1.difference(set2)
+
+
+
+DICTIONARIES
+
+What is a dictionary in Python?
+-> A dictionary is a collection of key-value pairs.
+
+
+How does it store data?
+-> Data is stored as key-value pairs in an unordered manner.
+
+
+Key-value pairs:
+-> Keys are unique and used to access the corresponding values.
+
+
+How do you add, remove, or update elements in a dictionary?
+-> Add/update: dict[key] = value
+-> Remove: del dict[key] or dict.pop(key)
+
+
+
+NumPy
+
+
+What is NumPy?
+-> NumPy is a library for numerical computing with Python.
+    Main features:
+    Provides support for arrays, mathematical functions, and operations on arrays.
+
+
+Creating a NumPy array:
+-> np.array([1, 2, 3])
+
+
+Array indexing and slicing:
+-> Access elements using indices, e.g., array[0]
+-> Slice arrays, e.g., array[start:end]
+
+
+
+PANDAS
+
+What is Pandas?
+-> Pandas is a library for data manipulation and analysis.
+
+
+Creating a Pandas Series and DataFrame:
+-> pd.Series([1, 2, 3])
+-> pd.DataFrame({'column1': [1, 2], 'column2': [3, 4]})
+
+
+
+Difference between loc and iloc:
+-> loc is label-based indexing.
+-> iloc is integer position-based indexing.
+
+
+
+PYTHON DATA TYPES
+
+Different data types:
+-> int: integer numbers
+-> float: floating-point numbers
+-> str: string of characters
+-> bool: boolean values (True or False)
+
+
+Convert between data types:
+-> Use functions like int(), float(), str(), and bool().
+
+
+Mutable and immutable data types:
+-> Mutable: list, dict, set
+-> Immutable: int, float, str, tuple
+
+
+
+LAMBDA Functions
+
+What is a lambda function?
+-> A small, anonymous function defined using the lambda keyword.
+
+
+When to use it:
+-> For small, simple functions that are used temporarily.
+
+
+Defining a lambda function:
+-> lambda arguments: expression
+
+
+Difference between lambda functions and regular functions:
+-> Lambda functions are single-line and anonymous; regular functions are defined using def and can have multiple lines and a name.
